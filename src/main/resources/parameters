@@ -1,0 +1,16 @@
+-log 2
+-groups unit
+-parameters a
+-debug true
+-Da=aa -Db=bb -D c=cc
+-password changeme
+-host host1,host2
+-file /Users/cloudine/projects/logs/starlog
+-files1 /Users/cloudine/projects/logs/starlog/songbom0406,/Users/cloudine/projects/logs/starlog/songbom2
+-files2 /Users/cloudine/projects/logs/starlog/songbom0406,/Users/cloudine/projects/logs/starlog/songbom2
+-files3 /Users/cloudine/projects/logs/starlog/songbom0406;/Users/cloudine/projects/logs/starlog/songbom2
+-hostport wiki.data-dynamics.io:80
+-age 35
+-count 33
+-pairs slave master
+/Users/cloudine/projects F:\vm\linux
